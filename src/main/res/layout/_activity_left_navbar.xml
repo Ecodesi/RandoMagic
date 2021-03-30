@@ -1,0 +1,63 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="70dp"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/darkerBg"
+        >
+        <!--Decks -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@color/darkerBg"
+            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/activity_main_access_deckList"
+                android:contentDescription="@string/icone_de_deck"
+                android:background="@drawable/decks_icon_700x700"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/liste_de_decks"
+                android:background="@color/darkerBg"
+                />
+        </LinearLayout>
+        <!-- Find a game -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@color/darkerBg"
+            >
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/activity_main_access_findGame"
+                android:contentDescription="@string/icone_trouver_une_partie"
+                android:background="@drawable/decks_icon_700x700"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/trouver_une_partie"
+                android:background="@color/darkerBg"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</merge>

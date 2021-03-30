@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RandoMagic</string>
+    <string name="liste_de_decks">Liste de decks</string>
+    <string name="trouver_une_partie">Trouver une partie</string>
+    <string name="icone_de_deck">Icone de deck</string>
+    <string name="icone_trouver_une_partie">icone_trouver_une_partie</string>
+    <string name="deck_1">Deck 1</string>
+    <string name="deck_2">deck 2</string>
+    <string name="add_a_deck">add a deck</string>
+    <string name="icone_de_deck_add">icone_de_deck_add</string>
+    <string name="APPNAME">RandoMagic</string>
+    <string name="last_game_stats">Last game stats:</string>
+    <string name="logo_application">logo_application</string>
+</resources>
